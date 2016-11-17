@@ -1,19 +1,17 @@
 body {
-  padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: small;
+  padding: 0;
+  font-size: medium;
+  font-family: sans-serif;
 }
 
-nav {
-  padding: 20px 15px 0;
-  text-align: right;
-}
-
-a { 
-  padding: 8px 12px;
-  color: #5badf0;
+a {
   text-decoration: none;
+  color: #5badf0;
+}
+
+a:hover {
+  border-bottom: solid #5badf0 2px;
 }
 
 .primary {
@@ -22,33 +20,78 @@ a {
   background-color: #5badf0;
 }
 
-#profile img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+.primary:hover {
+  color: #5badf0;
+  background-color: #fff;
+  border: solid #5badf0 1px;
 }
 
-header {
+nav {
+  padding: 20px 15px 0;
+  text-align: right;
+}
+
+nav a {
+  font-size: small;
+  padding: 8px 12px;
+}
+
+header.profile {
+  margin-top: 74px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-h1{
-  font-size: 2.4em;
+header.profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;;
 }
 
-h2 {
-  font-size: 2.2em;
+header.profile h1 {
+  margin: 0;
+}
+
+header.profile h2 {
+  margin-top: 10px;
   color: #aaa;
   font-weight: 300;
 }
 
-#about {
-  
+ul.table {
+  display: table;
+  padding-left: 0;
 }
 
-#wrapper{
-  padding: 100px 40px 0px;
+li.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  vertical-align: top;
+  display: table-cell;
+}
+
+.table-cell p {
+  margin: 0;
+}
+
+.bubble {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.wrapper {
   margin: 0 auto;
+  padding: 0px 25px 0px;
+  max-width: 600px;
 }
 
 footer {
@@ -59,6 +102,6 @@ footer {
 
 footer p {
   color: #bbb;
-  line-height: 1.5;
+  font-size: small;
   text-align: center;
 }

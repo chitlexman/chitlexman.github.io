@@ -8,89 +8,81 @@
   <meta name="description" content="My personal page">
   <meta name="keywords" content="chitlexman, portfolio, contact, blog, web developer, github">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>Chitlexman - Super Web Developer :D</title>
+  <title>chitlexman · Web Developer</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
     <a href="https://chitlexman.github.io/">Home</a>
-    <a href="https://github.com/chitlexman">GitHub</a>
-    <a href="https://vk.com/chitlex">VK</a>
-    <a class="primary" href="/blog">Blog</a>
+    <a class="primary" href="https://github.com/chitlexman">GitHub</a>
   </nav>
-  
-  <main>
-    <div id="profile">
-      <section id="wrapper">
-        <header id="header">
-          <a href="/about">
-            <img src="/img/avatar.png">
-          </a>
-          <h1>Sanya Alexandrov</h1>
-          <h2>Web Developer</h2>
-        </header>
-      </section>
-    </div>
-  </main>
 
-  <section id="wrapper" class="home">
-    <div id="about">
-  
-      <ol class="list-view">
+  <div class="wrapper">
+    <header class="profile">
+      <a href="/about">
+        <img src="/img/avatar.png">
+      </a>
+      <h1>Sanya Alexandrov</h1>
+      <h2>Web Developer</h2>
+    </header>
+  </div>
 
-        <!-- My projects--> 
-        <li class="list-item">
-          <div class="list-header">
-            <div class="kolobok"></div> <!-- rename later :D -->
-          </div>
-          <div class="list-detail">
-            <div class="title">
-              <h3>Projects</h3>
-            </div>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi asperiores eos, nisi ullam id rem doloremque laborum omnis! Numquam.
-            </p>
-          </div>
-        </li>
+  <div class="wrapper">
+    <ul class="table">
 
-        <!-- My blog--> 
-        <li class="list-item">
-          <div class="list-header">
-            <div class="kolobok"></div> <!-- rename later :D -->
-          </div>
-          <div class="list-detail">
-            <div class="title">
-              <h3>Blog</h3>
-            </div>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi asperiores eos, nisi ullam id rem doloremque laborum omnis! Numquam.
-            </p>
-          </div>
-        </li>
+      <!-- My projects--> 
+      <li class="table-row">
+        <div class="table-cell">
+          <div class="bubble" style="background-image: url(img/projects.png)"></div>
+        </div>
+        <div class="table-cell detail">
+          <h3>Projects</h3>
+          <p><a href="/projects">Here</a> you can see my projects.
+          </p>
+        </div>
+      </li>
 
-        <!-- My something else--> 
-        <li class="list-item">
-          <div class="list-header">
-            <div class="kolobok"></div> <!-- rename later :D -->
-          </div>
-          <div class="list-detail">
-            <div class="title">
-              <h3>Something</h3>
-            </div>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam excepturi asperiores eos, nisi ullam id rem doloremque laborum omnis! Numquam.
-            </p>
-          </div>
-        </li>
+      <!-- My blog--> 
+      <li class="table-row">
+        <div class="table-cell">
+          <div class="bubble" style="background-image: url(img/computer.png)"></div>
+        </div>
+        <div class="table-cell detail">
+          <h3>Blog</h3>
+          <p>My last blog post was: <a href="blog/super-post">Super post</a>.
+          </p>
+        </div>
+      </li>
 
-      </ol>
-    </div>
+      <!-- My tools--> 
+      <li class="table-row">
+        <div class="table-cell">
+          <div class="bubble" style="background-image: url(img/tools.png)"></div>
+        </div>
+        <div class="table-cell detail">
+        <h3>Tools</h3>
+          <p><a href="/tools">Tools</a> and techniques that I use.</p>
+        </div>
+      </li>
 
+      <!-- My contact--> 
+      <li class="table-row">
+        <div class="table-cell">
+          <div class="bubble" style="background-image: url(img/contact.png)"></div>
+        </div>
+        <div class="table-cell detail">
+          <h3>Contact</h3>
+          <p>A: Russia, Moscow</p>
+          <p>E: <a href="mailto:chitlexman@gmail.com">chitlexman@gmail.com</a></p>
+        </div>
+      </li>
+
+    </ul>
 
     <footer>
       <p>© Copyright 2016 Sanya Alexandrov</p>
     </footer>
-
-
-  </section>
-
+  </div>
 
   <script src="js/main.js"></script>
 </body>
