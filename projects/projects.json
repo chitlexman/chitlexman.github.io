@@ -1,0 +1,13 @@
+[{
+  "name": "super-project",
+  "description": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente officiis, vero rerum molestiae eveniet velit at incidunt quasi odit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente officiis, vero rerum molestiae eveniet velit at incidunt quasi odit.",
+  "prevImg": "http://www.w3schools.com/css/trolltunga.jpg",
+  "githubLink": "https://chitlexman.github.io/",
+  "demoLink": "https://plnkr.co/",
+  "tags": ["AngularJS", "REST"]
+}, {
+  "name": "second-project",
+  "description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente officiis, vero rerum molestiae eveniet velit at incidunt quasi odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente officiis, vero rerum molestiae eveniet velit at incidunt quasi odit. ipsum",
+  "prevImg": "https://dailypost.files.wordpress.com/2013/08/img_8488.jpg",
+  "tags": ["AngularJS", "python"]
+}]

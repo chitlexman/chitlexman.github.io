@@ -1,0 +1,22 @@
+#projects img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project {
+  border-bottom: solid 1px #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project a {
+  margin-right: 10px;
+}
+
+.project p {
+  color: #888;
+}
